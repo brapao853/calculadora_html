@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  
+    font-family: sans-serif;
+  }
+  
+  #calculadora {
+    width: 350px;
+    height: 600px;
+    background-color: black;
+    margin: 0 auto;
+    top: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #title {
+    text-align: center;
+    padding-top: 10px;
+    color: greenyellow;
+    font-family: italica;
+  }
+  
+  #resultado {
+    height: 120px;
+  }
+  
+  .pantalla {
+    text-align: right;
+    height: 60px;
+    width: 275px;
+    margin: 10px 20px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+  }
+  
+  .teclado {
+    padding: 50px;
+    padding-top:90px;
+  }
+  
+  .botonAux,
+  .back,
+  .percent,
+  .point,
+  .numero,
+  .borrar,
+  .division,
+  .suma,
+  .multiplicacion,
+  .substraccion,
+  .igual {
+    height: 57px;
+    width: 57px;
+    margin: 0px;
+    float: center;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: normal;
+    font-size: 15px;
+  }
+  
+  .division {
+    font-size: 40px;
+    background-color: grey;
+    color:greenyellow;
+    
+  }
+
+  .suma {
+    font-size: 40px;
+    background-color: grey;
+    color:greenyellow;
+  }
+  
+  .multiplicacion {
+    font-size: 40px;
+    background-color: grey;
+    color:greenyellow;
+  }
+  
+  .substraccion {
+    font-size: 40px;
+    background-color: grey;
+    color:greenyellow;
+  }
+  
+  .igual {
+    font-size: 40px;
+    background-color: grey;
+    color:greenyellow;
+  }
+  
+  .numero {
+    background-color: #eaedef;
+    font-size: 40px;
+  }
+  .borrar{
+    background-color: grey;
+    font-size: 40px;
+    color:greenyellow;
+    
+  }
+  .botonAux{
+    background-color:white;
+    font-size: 40px;
+  }
+
+  .back{
+    background-color:grey;
+    font-size: 40px;
+    color:greenyellow;
+    text-align: center;
+  }
+  .percent{
+    background-color:grey;
+    font-size: 40px;
+    color:greenyellow;
+  }
+
+  .point{
+    background-color:white;
+    font-size: 40px;
+  }
+
+  
+  .numero,
+  .botonAux,
+  .borrar,
+  .division,
+  .suma,
+  .multiplicacion,
+  .igual,
+  .substraccion {
+    cursor: pointer;
+  }
+  
+  .botonAux:active,
+  .numero:active,
+  .borrar:active,
+  .division:active,
+  .suma:active,
+  .multiplicacion:active,
+  .substraccion:active,
+  .igual:active {
+    font-size: 13px;
+  }
+  
+  .botonAux:focus,
+  .numero:focus,
+  .vazio:focus,
+  .borrar:focus,
+  .division:focus,
+  .suma:focus,
+  .multiplicacion:focus,
+  .substraccion:focus,
+  .igual:focus {
+    outline: 0;
+  }
+  
